@@ -1,10 +1,9 @@
-import MyButton from "./components/Button";
+import Phone from "./components/PhoneLayout";
 
 export default function App() {
 	return (
-		<div>
-			<h1>Bem-vindo</h1>
-			<MyButton />
+		<div className="w-[390px] h-[844px]">
+			<Phone />
 		</div>
 	);
 }
